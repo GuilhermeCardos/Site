@@ -121,9 +121,9 @@ msgid "This theme requires WordPress 5.3 or newer. You are running version %s. P
 msgstr "Este tema requer o WordPress 5.3 ou mais recente. Você está executando a versão %s, é necessário atualizar."
 
 #. translators: %: Page number.
-#: image.php:46 template-parts/content/content-single.php:30
-#: template-parts/content/content-page.php:36
 #: template-parts/content/content.php:36
+#: template-parts/content/content-page.php:36
+#: template-parts/content/content-single.php:30 image.php:46
 msgid "Page %"
 msgstr "Página %"
 
@@ -211,8 +211,8 @@ msgstr "&#8220;Auto-retrato&#8221; de Berthe Morisot"
 msgid "&#8220;Daffodils&#8221; by Berthe Morisot"
 msgstr "&#8220;Daffodils&#8221; de Berthe Morisot"
 
-#: inc/starter-content.php:43 inc/block-patterns.php:72
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:72 inc/block-patterns.php:107
+#: inc/starter-content.php:43
 msgid "&#8220;Roses Trémières&#8221; by Berthe Morisot"
 msgstr "&#8220;Roses Trémières&#8221; por Berthe Morisot"
 
@@ -307,13 +307,13 @@ msgstr "Belos jardins pintados por Berthe Morisot no final do século XIX"
 msgid "&#8220;The Garden at Bougival&#8221; by Berthe Morisot"
 msgstr "&#8220;O jardim em Bougival&#8221; de Berthe Morisot"
 
-#: inc/starter-content.php:61 inc/block-patterns.php:72
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:72 inc/block-patterns.php:107
+#: inc/starter-content.php:61
 msgid "&#8220;Young Woman in Mauve&#8221; by Berthe Morisot"
 msgstr "&#8220;Jovem mulher em Mauve&#8221; de Berthe Morisot"
 
-#: inc/starter-content.php:51 inc/block-patterns.php:72
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:72 inc/block-patterns.php:107
+#: inc/starter-content.php:51
 msgid "&#8220;In the Bois de Boulogne&#8221; by Berthe Morisot"
 msgstr "&#8220;No Bois de Boulogne&#8221; de Berthe Morisot"
 
@@ -356,7 +356,7 @@ msgid "View all of %s's posts."
 msgstr "Ver todos os posts de %s."
 
 #. translators: %s: Author name.
-#: inc/template-tags.php:49 template-parts/post/author-bio.php:19
+#: template-parts/post/author-bio.php:19 inc/template-tags.php:49
 msgid "By %s"
 msgstr "Por %s"
 
@@ -424,8 +424,8 @@ msgid ", "
 msgstr ", "
 
 #. translators: %s: Name of current post. Only visible to screen readers.
-#: inc/template-tags.php:92 inc/template-tags.php:135 image.php:68 image.php:93
-#: template-parts/content/content-page.php:48
+#: template-parts/content/content-page.php:48 image.php:68 image.php:93
+#: inc/template-tags.php:92 inc/template-tags.php:135
 msgid "Edit %s"
 msgstr "Editar %s"
 
@@ -552,10 +552,10 @@ msgstr "Tamanho completo"
 msgid "Published %s"
 msgstr "%s publicado"
 
-#: comments.php:62 inc/template-tags.php:228 image.php:43
-#: template-parts/content/content-single.php:27
-#: template-parts/content/content-page.php:33
 #: template-parts/content/content.php:33
+#: template-parts/content/content-page.php:33
+#: template-parts/content/content-single.php:27 comments.php:62 image.php:43
+#: inc/template-tags.php:228
 msgid "Page"
 msgstr "Página"
 
@@ -567,8 +567,8 @@ msgstr "Fechar"
 msgid "Menu"
 msgstr "Menu"
 
-#: inc/starter-content.php:154 functions.php:76
-#: template-parts/header/site-nav.php:13
+#: template-parts/header/site-nav.php:13 functions.php:76
+#: inc/starter-content.php:154
 msgid "Primary menu"
 msgstr "Menu primário"
 
@@ -648,7 +648,7 @@ msgstr "Verde"
 msgid "Gray"
 msgstr "Cinza"
 
-#: inc/block-styles.php:107 functions.php:223
+#: functions.php:223 inc/block-styles.php:107
 msgid "Dark gray"
 msgstr "Cinza escuro"
 
@@ -689,7 +689,7 @@ msgstr "Extra pequeno"
 msgid "Proudly powered by %s."
 msgstr "Orgulhosamente desenvolvido com %s."
 
-#: footer.php:24 inc/starter-content.php:165 functions.php:77
+#: functions.php:77 inc/starter-content.php:165 footer.php:24
 msgid "Secondary menu"
 msgstr "Menu secundário"
 
@@ -717,7 +717,7 @@ msgstr "Exibir o título do site e descrição"
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Parece que nada foi encontrado neste local. Que tal tentar uma pesquisa?"
 
-#: 404.php:16 template-parts/content/content-none.php:30
+#: template-parts/content/content-none.php:30 404.php:16
 msgid "Nothing here"
 msgstr "Nada aqui"
 
